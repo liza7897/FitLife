@@ -1,4 +1,3 @@
-# Проект FitLife - MVP версия 1.0
 
 WATER_COAFF_UNDERWEIGHT = 0.028
 WATER_COAFF_NORMAL = 0.030

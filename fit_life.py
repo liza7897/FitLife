@@ -10,8 +10,9 @@ user_height = float(input('Введи свой рост в м (пример - 1.
 """Расчет ИМТ"""
 bmi = user_weight / (user_height ** 2)
 
+
 def water_intake_recommendations(bmi):
-    if bmi < 18.5: 
+    if bmi < 18.5:
         return user_weight * 0.030
     elif 18.5 <= bmi < 25:
         return user_weight * 0.030
@@ -22,5 +23,4 @@ water_intake = water_intake_recommendations(bmi)
 
 print(f'Твой индекс массы тела (ИМТ): {bmi:.2f}')
 print(f'Твоя норма суточного потребления воды:{water_intake:.2f} литров.')
-print('Следуй рекомендациям и будь здоров!')
-return water_intake_recommendations(bmi)
+

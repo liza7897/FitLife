@@ -21,4 +21,3 @@ water_intake = water_intake_recommendations(bmi)
 
 print(f'Твой индекс массы тела (ИМТ): {bmi:.2f}')
 print(f'Твоя норма суточного потребления воды:{water_intake:.2f} литров.')
-print('Следуй рекомендациям и будь здоров!')

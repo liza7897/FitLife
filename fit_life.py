@@ -2,7 +2,7 @@
 print('Привет!', 'Я виртуальный помощник от Fitlife!')
 print('Мне потребуются твои данные для расчета ИМТ.')
 name = input('Как я могу к тебе обращаться?')
-formatted_name = name.title() 
+formatted_name = name.title()
 print(f'{formatted_name}, рад знакомству!')
 age = int(input('Введи свой возраст : '))
 weight = float(input('Введи свой вес в кг : '))

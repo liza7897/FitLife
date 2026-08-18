@@ -4,6 +4,16 @@ user_name = input('Как я могу к тебе обращаться?')
 print(user_name.title(), 'рад знакомству!')
 
 user_age = int(input('Введи свой возраст : '))
+
+if user_age % 10 == 1 and user_age % 100 != 11:
+    year_word = "год"
+elif user_age % 10 in [2, 3, 4] and not (user_age % 100 in [12, 13, 14]):
+    year_word = "года"
+else:
+    year_word = "лет"
+
+print(f"{user_name}, вам {user_age} {year_word}.")
+
 user_weight = float(input('Введи свой вес в кг : '))
 user_height = float(input('Введи свой рост в м (пример - 1.55): '))
 
